@@ -1,3 +1,9 @@
+
+# About the app
+This is a temple for a react app, with node backend, that has a lowdb in-memory database running
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
