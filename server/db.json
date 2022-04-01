@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": "123",
+      "name": "Mark Steward",
+      "bids": []
+    },
+    {
+      "id": "345",
+      "name": "Peter Jason",
+      "bids": []
+    }
+  ]
+}

@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import UsersList from './components/UsersList';
+import UserDetails from './components/UserDetails';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes>
+        <Route path="/" element={<App />} >
+            <Route path="users" element={<UsersList />} />
+            <Route path="users/:id" element={<UserDetails />} />
+        </Route>
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
